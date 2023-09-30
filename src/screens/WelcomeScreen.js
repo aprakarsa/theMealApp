@@ -26,7 +26,7 @@ export default function WelcomeScreen() {
                 (ring2Padding.value = withSpring(ring2Padding.value + hp(5.5))),
             300
         );
-        setTimeout(() => navigation.navigate("Home"), 1000);
+        setTimeout(() => navigation.navigate("Home"), 2500);
     }, []);
 
     return (
